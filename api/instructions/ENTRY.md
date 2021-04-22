@@ -47,7 +47,7 @@ Check ins should be connected with the user who made them, so the table/entity s
 - Use Postman to create a new user using some email. Then, create a new user again using the same email. This works, and that is a bug - we don't want several users with the same email, emails should be unique. Fix this!
 
 - Now we are going to do some planning and design a new big feature!
-When a user wants to smoke, we want to help them find a way to resist the urge - right? Our super-designers have come up with something called "habit hacks", which are things you can do instead of smoking. Like go for a run instead, drink some water, have a dance battle with yourself - and so on. We have also decided that we want the AI to recommend which hack would work best for a specific user when they feel like smoking.
+When a user wants to smoke, we want to help them find a way to resist the urge - right? Our super-designers have come up with something called "habit hacks", which are things you can do instead of smoking. Like go for a run instead, drink some water, have a dance battle with yourself - and so on. We have also decided that we want an "AI" recommendation service to recommend which hack would work best for a specific user when they feel like smoking.
 
 Sketch out a plan on how to build this feature end-to-end (app to API to AI). How will the app communicate with the API and how should the backend code be designed? How should all the hacks be stored and shipped around in the stack? You can assume that the AI service will be reached via http://ai/recommendHack and that it will send you which hack to recommend if you provide the user id.
 
