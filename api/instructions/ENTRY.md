@@ -46,6 +46,8 @@ CheckIns should be connected with the user who made them, so the table/entity sh
 
 - Write a unit test to test the method you wrote to make the calculations in the previous task. Don't test the controller method, just the calculations.
 
+- Use Postman to create a new user using some email. Then, create a new user again using the same email. This works, and that is a bug - we don't want several users with the same email, emails should be unique. Fix this!
+
 - TODO something with planning. Maybe "we want to ask the user some questions about why the user wants to smoke right now. but we want this to be AI recommended, so it should be presented to the app by the backend. How would you design an interaction like this? How would the interaction between the app and the backend look (the API) and how would you structure the backend code? you can assume theres an AI service somewhere which you can ask for recommendations from"
 
 - Start building what you planned in the previous point.

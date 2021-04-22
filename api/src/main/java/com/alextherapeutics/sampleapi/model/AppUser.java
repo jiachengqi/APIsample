@@ -13,4 +13,11 @@ import javax.persistence.Entity;
 public class AppUser extends BasicEntity {
     @Column
     private String email;
+    @Column
+    private int age;
+    /**
+     * How many cigarettes the user is smoking daily when starting in the app
+     */
+    @Column
+    private int numberCigarettesSmoked;
 }
